@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div></div>
+    <div class="container">
+        <div id="judul"><h1>Rock Paper Scissor</h1></div>
+        <div id="ask"><h1>Let's play! What you got?</h1></div>
+        <div id="choices">
+            <button onclick="playem('rock')">Rock</button>
+            <button onclick="playem('paper')">Paper</button>
+            <button onclick="playem('scissor')">Scissor</button>
+        </div>
+        <div id="result">
+            <div id="statement"><p id="tulisan">Play and see your luck :)</p></div>
+            <div class="scores">
+                <div id="win">
+                    <h4>Wins</h4>
+                    <p id="winscore">-</p>
+                </div>
+                <div id="lose">
+                    <h4>Loses</h4>
+                    <p id="losescore">-</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>Made by Edward Alvin, visit <a href="https://github.com/ThePrevailingOne/">github.com/ThePrevailingOne/</a> for more</div>
+    <script src="javascript.js"></script>
+</body>
+</html>
