@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--<div></div> ini buat ngapain ya-->
     <div></div>
     <div class="container">
+<!--        biasain jangan pakai id, hampir all the time pake class cukup kok-->
         <div id="judul"><h1>Rock Paper Scissor</h1></div>
         <div id="ask"><h1>Let's play! What you got?</h1></div>
         <div id="choices">
@@ -17,19 +19,23 @@
             <button onclick="playem('scissor')">Scissor</button>
         </div>
         <div id="result">
+<!--            inconsistent, ini ada yang namanya indo, ada yang namanya pake inggris-->
             <div id="statement"><p id="tulisan">Play and see your luck :)</p></div>
             <div class="scores">
                 <div id="win">
                     <h4>Wins</h4>
+<!--                    kalo 2 kata jangan disambung gini, selector biasa pisahin pake -, kayak win-score -->
                     <p id="winscore">-</p>
                 </div>
                 <div id="lose">
+<!--                    losses mungkin?-->
                     <h4>Loses</h4>
                     <p id="losescore">-</p>
                 </div>
             </div>
         </div>
     </div>
+<!--    good-->
     <div>Made by Edward Alvin, visit <a href="https://github.com/ThePrevailingOne/">github.com/ThePrevailingOne/</a> for more</div>
     <script src="javascript.js"></script>
 </body>
